@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VK Portfolio</title>
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+    
+    <header>
+        <nav class="navbar">
+            <a href="#about" class="logo">
+                <div class="logo-box">
+                    <h2>VK</h2>
+                </div>
+                <div class="logo-text">
+                    <h3>VISHESH</h3>
+                    <span>Frontend Developer</span>
+                </div>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#workspace">Projects</a></li>
+                <li><a href="#services-section">services</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+
+            <div class="nav-buttons">
+                <button class="theme-btn" id="themeToggle">
+                    <i class="ri-moon-fill"></i>
+                </button>
+                <button class="resume-btn" onclick="openResume()">
+                    Resume
+                </button>
+                <button class="hire-btn" onclick="openContact()">
+                    Hire Me
+                    <i class="ri-arrow-right-up-line"></i>
+                </button>
+                <div class="menu-btn">
+                    <i class="ri-menu-3-line"></i>
+                </div>
+            </div>
+        </nav>
+        </header>
+
+    <section id="home">
+
+                <div class="container hero-container">
+                    <div class="hero-content">
+                        <span class="available">
+                            🟢 Available for Work
+                        </span>
+                        <h3>Hello, I'm</h3>
+                        <h1>
+                            VISHESH
+                            <span>KATIYAR</span>
+                        </h1>
+                        <h2>
+                            Frontend Developer
+                        </h2>
+                        <p>
+                            I build modern, responsive and interactive websites with
+                            HTML, CSS, JavaScript, React and GSAP.
+                        </p>
+                        <div class="hero-buttons">
+                            <button class="primary-btn" onclick="openProjects()">
+                                View Projects
+                            </button>
+                            <button class="secondary-btn" onclick="openContact()">
+                                Contact Me
+                            </button>
+                        </div>
+
+                        <div id="social-icons">                       
+                            <a href="#"><i class="ri-github-fill"></i></a>
+                            <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+                            <a href="#"><i class="ri-instagram-line"></i></a>
+                            <a href="#"><i class="ri-twitter-x-line"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="hero-image">
+                        <img src="../assets/images/hero.png" alt="Hero">
+                        <div class="floating-card basketball">
+                            🏀 Basketball
+                        </div>
+                        <div class="floating-card cricket">
+                            🏏 Cricket
+                        </div>
+                        <div class="note">
+                            💡
+                            <p>
+                                I don't know everything in React,
+                                but I know how to build with React.
+                            </p>
+                        </div>
+                        <div class="code-box">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-down">
+                    <i class="ri-arrow-down-line"></i>
+                </div>
+        </section>
+
+    <section id="about">
+                <div class="container">
+                    <div class="section-title">
+                        <span>ABOUT ME</span>
+                        <h2>Who is Vishesh?</h2>
+                        <p>
+                            Passionate Frontend Developer creating modern,
+                            responsive and interactive websites.
+                        </p>
+                    </div>
+                    <div class="about-container">
+                        <div class="about-image">
+                            <img src="../assets/images/hero.png" alt="About Image">
+                            <div id="about-card1">🚀 Frontend Developer</div>
+                            <div id="about-card2">🚀 Frontend Developer</div>
+                            <div id="about-card3">🚀 Frontend Developer</div>
+                            <div id="about-card4">🚀 Frontend Developer</div>
+                            <div id="about-card5">🚀 Frontend Developer</div>                        
+                        </div>
+                        <div class="about-content">
+                            <h3>Hello 👋</h3>
+                            <p>
+                                I'm <strong>Vishesh Katiyar</strong>, a passionate Frontend
+                                Developer who enjoys transforming ideas into beautiful,
+                                fast and interactive web experiences.
+                            </p>
+                            <p>
+                                I specialize in HTML, CSS, JavaScript, React,
+                                GSAP and Responsive Web Design.
+                                I love creating modern UI with smooth animations.
+                            </p>
+                            <div class="about-info">
+                                <div id="info-box1">
+                                    <h4>🎓 Education</h4>
+                                    <p>BCA Student</p>
+                                </div>
+                                <div id="info-box2">
+                                    <h4>💻 Experience</h4>
+                                    <p>Frontend Development</p>
+                                </div>
+                                <div id="info-box3">
+                                    <h4>📍 Location</h4>
+                                    <p>Kanpur, India</p>
+                                </div>
+                                <div id="info-box4">
+                                    <h4>🎯 Goal</h4>
+                                    <p>Become a Software Engineer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+     <section id="skills">
+                    <div class="container">
+                        <div class="section-title">
+                            <span>MY SKILLS</span>
+                            <h2>Tech Stack</h2>
+                            <p>Technologies I use to build modern and interactive websites.</p>
+                        </div>
+                        <div class="skills-grid">
+                            <div class="skill-card html">
+                               <i class="fa-brands fa-html5 skill-icon"></i>
+                                <h3>HTML5</h3>
+                                <p>Semantic & Accessible Markup</p>
+                                <div class="skill-footer">
+                                    <span class="badge advanced">Advanced</span>
+                                    <small>15+ Projects</small>
+                                </div>
+                            </div>
+
+                            <div class="skill-card css">
+                                <i class="fa-brands fa-css3-alt skill-icon"></i>
+                                <h3>CSS3</h3>
+                                <p>Responsive & Modern UI</p>
+                                <div class="skill-footer">
+                                    <span class="badge advanced">Advanced</span>
+                                    <small>15+ Projects</small>
+                                </div>
+                            </div>
+
+                            <div class="skill-card js">
+                                <i class="fa-brands fa-js skill-icon"></i>
+                                <h3>JavaScript</h3>
+                                <p>Interactive Web Applications</p>
+                                <div class="skill-footer">
+                                    <span class="badge intermediate">Intermediate</span>
+                                    <small>10+ Projects</small>
+                                </div>
+                            </div>
+
+                            <div class="skill-card react">
+                                <i class="fa-brands fa-react skill-icon"></i>
+                                <h3>React</h3>
+                                <p>Reusable UI Components</p>
+                                <div class="skill-footer">
+                                    <span class="badge learning">Learning</span>
+                                    <small>5+ Projects</small>
+                                </div>
+                            </div>
+
+                            <div class="skill-card gsap">
+                                <i class="fa-solid fa-wand-magic-sparkles skill-icon"></i>
+                                <h3>GSAP</h3>
+                                <p>Smooth Web Animations</p>
+                                <div class="skill-footer">
+                                    <span class="badge intermediate">Intermediate</span>
+                                    <small>8+ Animations</small>
+                                </div>
+                            </div>
+
+                            <div class="skill-card git">
+                                <i class="fa-brands fa-git-alt skill-icon"></i>
+                                <h3>Git & GitHub</h3>
+                                <p>Version Control & Collaboration</p>
+                                <div class="skill-footer">
+                                    <span class="badge advanced">Advanced</span>
+                                    <small>Daily Workflow</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+     <section id="journey">
+                    <div class="container">
+                <div class="section-title">
+                    <span>MY JOURNEY</span>
+                    <h2>Learning Path</h2>
+                    <p>Every step has helped me become a better frontend developer.</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-card left">
+                        <div class="year">2024</div>
+                        <h3>Started Web Development</h3>
+                        <p>
+                            Started learning HTML and CSS and built my first web pages.
+                        </p>
+                    </div>
+
+                    <div class="timeline-card right">
+                        <div class="year">2024</div>
+                        <h3>Responsive Design</h3>
+                        <p>
+                            Learned Flexbox, Grid and mobile-first responsive layouts.
+                        </p>
+                    </div>
+
+                    <div class="timeline-card left">
+                        <div class="year">2025</div>
+                        <h3>JavaScript</h3>
+                        <p>
+                            Learned DOM, Events, ES6, APIs and asynchronous JavaScript.
+                        </p>
+                    </div>
+
+                    <div class="timeline-card right">
+                        <div class="year">2026</div>
+                        <h3>React & GSAP</h3>
+                        <p>
+                            Started building modern React projects with smooth GSAP animations.
+                        </p>
+                    </div>
+
+                    <div class="timeline-card left">
+                        <div class="year">Present</div>
+                        <h3>Building Real Projects</h3>
+                        <p>
+                            Creating responsive portfolios and full-stack projects while improving every day.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    <section id="workspace">
+                <div class="container">
+                    <div class="section-title">
+                        <span >MY WORKSPACE</span>
+                        <h2 style="color:white;">Projects I've Built</h2>
+                        <p>
+                           Explore my projects like a developer browsing files inside an IDE.
+                        </p>
+                    </div>
+
+                    <div class="workspace-container">
+                        <div class="workspace-left">
+                            <div class="explorer-header">
+                                <i class="fa-solid fa-folder-tree"></i>
+                                <span>Explorer</span>
+                            </div>
+
+                            <button class="folder active" data-index="0">
+                                <i class="fa-solid fa-folder-open"></i>
+                                TutorHub
+                            </button>
+
+                            <button class="folder" data-index="1">
+                                <i class="fa-solid fa-folder"></i>
+                                VK Portfolio
+                            </button>
+                            <button class="folder" data-index="2">
+                                <i class="fa-solid fa-folder"></i>
+                                Martin
+                            </button>
+
+                            <button class="folder" data-index="3">
+                                <i class="fa-solid fa-folder"></i>
+                                Coming Soon
+                            </button>
+                        </div>
+
+                        <div class="workspace-right">
+                            <div class="browser">
+                                <div class="browser-top">
+                                    <span class="red"></span>
+                                    <span class="yellow"></span>
+                                    <span class="green"></span>
+                                </div>
+                                <div class="browser-screen">
+                                    <img src="../assets/images/tutorhub.png" alt="TutorHub">
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <span class="project-tag">
+                                    Featured Project
+                                </span>
+                                <h2 class="project-title">
+                                    TutorHub
+                                </h2>
+                                <p class="project-description">
+                                    A modern tutoring platform where students can easily
+                                    discover tutors, browse profiles, and connect with the
+                                    right mentor. Built with a strong focus on responsive
+                                    design, animations, and clean UI.
+                                </p>
+
+                                <div class="tech-stack">
+                                    <span>React</span>
+                                    <span>Node</span>
+                                    <span>MongoDB</span>
+                                    <span>GSAP</span>
+                                    <span>Tailwind</span>
+
+                                </div>
+
+                                <div class="project-buttons">
+                                    <a href="#" class="live-btn">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        Live Demo
+                                    </a>
+
+                                    <a href="#" class="github-btn">
+                                        <i class="fa-brands fa-github"></i>
+                                        GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+    <section id="services-section">
+            <div class="services-container">
+                <div class="services-header">
+                    <p class="small-title">
+                       MY SERVICES
+                    </p>
+                    <h1>
+                        What I <span>Offer</span>
+                    </h1>
+                    <p>
+                        I build modern, responsive and interactive websites
+                        with clean code and smooth user experience.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            💻
+                        </div>
+                        <h2>
+                            Frontend Development
+                        </h2>
+                        <p>
+                            Creating responsive websites using
+                            HTML, CSS, JavaScript and React.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            🎨
+                        </div>
+                        <h2>
+                            UI Design
+                        </h2>
+                        <p>
+                            Designing clean and attractive interfaces
+                            with modern design principles.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                           ⚡
+                        </div>
+                        <h2>
+                            Animation With GSAP
+                        </h2>
+                        <p>
+                            Adding smooth animations and interactions
+                            for better user experience.
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            🚀
+                        </div>
+                        <h2>
+                            Performance Optimization
+                        </h2>
+                        <p>
+                            Improving website speed, loading time
+                            and overall performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section id="contact-section">
+            <div class="contact-wrapper">
+
+                <div class="character">
+                    <img src="character.png" alt="Developer Character">
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-heading">
+                        <h1>
+                            Let's Build 
+                            <span>Something Amazing</span>
+                        </h1>
+                        <p>
+                            Have a project idea? Let's create something
+                            meaningful together.
+                        </p>
+                    </div>
+
+                    <form class="contact-form">
+                        <div class="input-box">
+                            <label>
+                                👤 Name
+                            </label>
+                            <input 
+                            type="text"
+                            placeholder="Enter your name">
+                        </div>
+
+                        <div class="input-box">
+                            <label>
+                                ✉ Email
+                            </label>
+                            <input 
+                            type="email"
+                            placeholder="Enter your email">
+                        </div>
+
+                       <div class="input-box">
+                            <label>
+                                💬 Message
+                            </label>
+                            <textarea
+                            placeholder="Tell me about your project">
+                            </textarea>
+                        </div>
+
+                        <button>
+                            Send Message →
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <div class="contact-details">
+                    <div class="detail-card">
+                        <h3>
+                            📧 Email
+                        </h3>
+                        <p>
+                            visheshkatiyar420@gmail.com
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>
+                            📍 Location
+                        </h3>
+                        <p>
+                            Kanpur, Uttar Pradesh, India
+                        </p>
+                    </div>
+
+                    <div class="detail-card">
+                        <h3>
+                            📱 Phone
+                        </h3>
+                        <p>
+                            +91 91202-66529
+                        </p>
+                   </div>
+
+                   <div class="detail-card">
+                        <h3>
+                            🔗 Social
+                        </h3>
+                        <p>
+                            LinkedIn / Github
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-intro">
+                    <div class="brand">
+                        <h1>
+                            VK<span>.</span>
+                        </h1>
+                        <h3>
+                            Frontend Developer
+                        </h3>
+                        <p>
+                            I create modern, responsive and interactive
+                            web experiences using clean code and creative design.
+                        </p>
+
+                        <div class="social-links">
+                            <a href="#">
+                                GitHub
+                            </a>
+                            <a href="#">
+                                LinkedIn
+                            </a>
+                            <a href="#">
+                                Twitter
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="footer-grid">
+                    <div class="footer-box">
+                        <h2>
+                            Quick Links
+                        </h2>
+                        <ul>
+                            <li>
+                                <a href="#home">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#skills">
+                                    Skills
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#contact-section">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-box">
+                        <h2>
+                            Services
+                        </h2>
+                        <ul>
+                            <li>
+                                Frontend Development
+                            </li>
+                            <li>
+                                UI Design
+                            </li>
+                            <li>
+                                GSAP Animation
+                            </li>
+                            <li>
+                                Performance
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-box">
+                        <h2>
+                            <a href="#workspace">Projects</a>
+                        </h2>
+                        <ul>
+                            <li>
+                                <a href="https://github.com/yash3556/TutorHub">TutorHub</a>
+                            </li>
+                            <li>
+                                <a href="#workspace">VK Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="https://martin-eight.vercel.app/">Martin</a>
+                            </li>
+                            <li>
+                                <a href="#workspace">Coming Soon</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-box">
+                        <h2>
+                            Contact
+                        </h2>
+                        <ul>
+                            <li>
+                                📧 Email
+                            </li>
+                            <li>
+                                📍 India
+                            </li>
+                            <li>
+                                💻 Github
+                            </li>
+                            <li>
+                                🔗 LinkedIn
+                            </li>
+                        </ul>
+                    </div>
+        </div>
+
+
+                <div class="footer-bottom">
+                    <p>
+                        © 2026 Vishesh Katiyar. All Rights Reserved.
+                    </p>
+                    <p>
+                        Designed & Developed by Vishesh
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    
+    <script src="../js/gsap.js"></script>
+    <script src="../js/script.js"></script>
+    
+</body>
+</html>
