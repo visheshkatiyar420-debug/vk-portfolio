@@ -203,7 +203,7 @@ const projects = [
     {
         tag: "Featured Project",
         title: "TutorHub",
-        image: "../assets/images/tutorhub.png",
+        image: "assets/images/tutorhub.png",
         description: "A modern tutoring platform where students can easily discover tutors, browse profiles, and connect with the right mentor.",
         tech: ["React", "Node", "MongoDB", "GSAP", "Tailwind"],
         live: "#",
@@ -212,7 +212,7 @@ const projects = [
     {
         tag: "Personal Project",
         title: "VK Portfolio",
-        image: "../assets/images/myportfolio.png",
+        image: "assets/images/myportfolio.png",
         description: "A modern portfolio website built with HTML, CSS, JavaScript and GSAP.",
         tech: ["HTML", "CSS", "JavaScript", "GSAP"],
         live: "#",
@@ -221,7 +221,7 @@ const projects = [
     {
         tag: "UI Project",
         title: "Martin",
-        image: "../assets/images/martin.png",
+        image: "assets/images/martin.png",
         description: "Creative software landing page with smooth animations and bold UI.",
         tech: ["HTML", "CSS", "JavaScript"],
         live: "https://martin-eight.vercel.app/",
